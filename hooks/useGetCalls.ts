@@ -52,7 +52,7 @@ return (startsAt&& new Date(startsAt) < now || !!endedAt)
     return{
         endedCalls,
         upcomingCalls,
-        recordings:calls,
+        callRecordings:calls,
         isLoading,
     }
 }
